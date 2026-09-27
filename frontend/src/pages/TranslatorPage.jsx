@@ -45,7 +45,7 @@ function TranslatorPage() {
   const handleStartOver = () => {
     setText("");
     setTranslation("");
-    setLanguage("fr");
+    setLanguage("hi");
     setError("");
     setStep("input");
   };
