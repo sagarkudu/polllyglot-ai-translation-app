@@ -7,8 +7,8 @@ const openai = new OpenAI({
 });
 
 const languageNames = {
+  hi: "Hindi",
   fr: "French",
-  es: "Spanish",
   ja: "Japanese",
 };
 
