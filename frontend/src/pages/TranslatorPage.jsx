@@ -8,7 +8,7 @@ import Header from "../layout/Header";
 
 function TranslatorPage() {
   const [text, setText] = useState("");
-  const [language, setLanguage] = useState("fr");
+  const [language, setLanguage] = useState("hi");
 
   const [translation, setTranslation] = useState("");
 
