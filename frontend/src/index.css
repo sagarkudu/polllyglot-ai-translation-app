@@ -787,3 +787,445 @@ body {
   font-size: 14px;
   font-weight: 700;
 }
+
+/* =========================================================
+   POLLYGLOT RESPONSIVE OVERRIDES
+   Desktop / Tablet / Mobile
+   ========================================================= */
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  max-width: 100%;
+}
+
+.header-content,
+.main-content {
+  width: 100%;
+}
+
+.translation-input,
+.result-box {
+  overflow-wrap: anywhere;
+}
+
+.other-language-search {
+  width: calc(100% - 35px);
+}
+
+.language-suggestions {
+  max-width: 100%;
+}
+
+.developer-footer {
+  margin-top: auto;
+}
+
+.developer-footer p {
+  line-height: 1.5;
+}
+
+/* ---------- Large Desktop ---------- */
+
+@media (min-width: 1200px) {
+  .header-content {
+    max-width: 1000px;
+    min-height: 160px;
+    padding: 42px 32px;
+  }
+
+  .parrot {
+    font-size: 96px;
+  }
+
+  .brand h1 {
+    font-size: 60px;
+  }
+
+  .main-content {
+    padding: 48px 24px 80px;
+  }
+
+  .translation-card {
+    max-width: 560px;
+    padding: 38px 32px 32px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .header-content {
+    min-height: 145px;
+    padding: 30px 24px;
+  }
+
+  .logo-section {
+    gap: 16px;
+  }
+
+  .parrot {
+    font-size: 72px;
+  }
+
+  .brand h1 {
+    font-size: 46px;
+    letter-spacing: -1px;
+  }
+
+  .brand p {
+    margin-top: 9px;
+    font-size: 17px;
+  }
+
+  .main-content {
+    min-height: calc(100vh - 145px);
+    padding: 34px 20px 60px;
+  }
+
+  .translation-card {
+    width: min(100%, 600px);
+    padding: 32px 26px 28px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .translation-input,
+  .result-box {
+    min-height: 150px;
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .language-list {
+    gap: 14px;
+  }
+
+  .language-option {
+    font-size: 21px;
+  }
+
+  .primary-button {
+    min-height: 62px;
+    font-size: 27px;
+  }
+
+  .developer-footer {
+    padding: 20px;
+    font-size: 15px;
+  }
+}
+
+/* ---------- Small Tablet / Large Mobile ---------- */
+
+@media (min-width: 481px) and (max-width: 700px) {
+  .header-content {
+    min-height: 190px;
+    padding: 28px 20px;
+  }
+
+  .logo-section {
+    gap: 13px;
+  }
+
+  .parrot {
+    font-size: 62px;
+  }
+
+  .brand h1 {
+    font-size: 40px;
+  }
+
+  .brand p {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+
+  .main-content {
+    padding: 28px 16px 55px;
+  }
+
+  .translation-card {
+    width: min(100%, 560px);
+    padding: 28px 22px 25px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .translation-input,
+  .result-box {
+    min-height: 145px;
+    padding: 18px;
+    font-size: 21px;
+  }
+
+  .language-option {
+    font-size: 20px;
+  }
+
+  .primary-button {
+    min-height: 60px;
+    font-size: 25px;
+  }
+
+  .developer-footer {
+    padding: 20px 16px;
+    font-size: 14px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 480px) {
+  .header-content {
+    width: 100%;
+    min-height: 180px;
+    padding: 24px 14px;
+  }
+
+  .logo-section {
+    width: 100%;
+    justify-content: center;
+    gap: 9px;
+  }
+
+  .parrot {
+    flex-shrink: 0;
+    font-size: 52px;
+  }
+
+  .brand {
+    min-width: 0;
+  }
+
+  .brand h1 {
+    font-size: clamp(28px, 10vw, 35px);
+    letter-spacing: -1px;
+    white-space: nowrap;
+  }
+
+  .brand p {
+    margin-top: 6px;
+    font-size: clamp(11px, 3.5vw, 14px);
+    line-height: 1.25;
+  }
+
+  .main-content {
+    min-height: calc(100vh - 180px);
+    padding: 22px 10px 40px;
+  }
+
+  .translation-card {
+    width: 100%;
+    max-width: none;
+    border-width: 3px;
+    border-radius: 16px;
+    padding: 24px 15px 22px;
+  }
+
+  .section-title {
+    font-size: 21px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+  }
+
+  .language-title {
+    margin-top: 27px;
+    margin-bottom: 18px;
+  }
+
+  .translation-input,
+  .result-box {
+    min-height: 135px;
+    padding: 16px;
+    border-radius: 11px;
+    font-size: 18px;
+    line-height: 1.45;
+  }
+
+  .language-list {
+    gap: 12px;
+    margin-bottom: 25px;
+  }
+
+  .language-option {
+    width: 100%;
+    min-width: 0;
+    gap: 9px;
+    font-size: 18px;
+  }
+
+  .radio-custom {
+    width: 21px;
+    height: 21px;
+  }
+
+  .language-name {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .language-flag {
+    flex-shrink: 0;
+    font-size: 24px;
+  }
+
+  .other-language-search {
+    width: calc(100% - 34px);
+    margin-left: 34px;
+  }
+
+  .language-search-input {
+    min-height: 48px;
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+
+  .language-suggestions {
+    max-height: 220px;
+  }
+
+  .language-suggestion {
+    min-height: 48px;
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .suggestion-name,
+  .suggestion-native {
+    font-size: 14px;
+  }
+
+  .primary-button {
+    min-height: 56px;
+    border-radius: 8px;
+    font-size: 22px;
+  }
+
+  .translation-result-wrapper .translation-output {
+    padding-right: 55px;
+  }
+
+  .copy-button {
+    top: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .copy-status {
+    min-height: 21px;
+    margin-top: 6px;
+    font-size: 12px;
+  }
+
+  .developer-footer {
+    padding: 18px 12px;
+    font-size: 13px;
+  }
+}
+
+/* ---------- Very Small Phones ---------- */
+
+@media (max-width: 360px) {
+  .header-content {
+    min-height: 165px;
+    padding: 20px 10px;
+  }
+
+  .parrot {
+    font-size: 43px;
+  }
+
+  .brand h1 {
+    font-size: 27px;
+  }
+
+  .brand p {
+    font-size: 10px;
+  }
+
+  .main-content {
+    padding: 18px 7px 30px;
+  }
+
+  .translation-card {
+    padding: 20px 12px;
+    border-radius: 14px;
+  }
+
+  .section-title {
+    font-size: 19px;
+  }
+
+  .translation-input,
+  .result-box {
+    min-height: 120px;
+    padding: 14px;
+    font-size: 17px;
+  }
+
+  .language-option {
+    font-size: 17px;
+  }
+
+  .language-flag {
+    font-size: 22px;
+  }
+
+  .primary-button {
+    min-height: 52px;
+    font-size: 20px;
+  }
+
+  .other-language-search {
+    width: calc(100% - 31px);
+    margin-left: 31px;
+  }
+
+  .language-search-input {
+    font-size: 15px;
+  }
+
+  .suggestion-name,
+  .suggestion-native {
+    font-size: 13px;
+  }
+
+  .developer-footer {
+    font-size: 12px;
+  }
+}
+
+/* ---------- Touch Devices ---------- */
+
+@media (hover: none) and (pointer: coarse) {
+  .language-suggestion {
+    min-height: 48px;
+  }
+
+  .copy-button {
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
