@@ -1,6 +1,6 @@
 export const LANGUAGES = [
+  { code: "hi", name: "Hindi", nativeName: "हिन्दी", flag: "🇮🇳" },
   { code: "fr", name: "French", nativeName: "Français", flag: "🇫🇷" },
-  { code: "es", name: "Spanish", nativeName: "Español", flag: "🇪🇸" },
   { code: "ja", name: "Japanese", nativeName: "日本語", flag: "🇯🇵" },
 ];
 

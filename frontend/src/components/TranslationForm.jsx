@@ -50,7 +50,7 @@ function TranslationForm({
             Translating...
           </>
         ) : (
-          "Translate"
+          "Translate ✨"
         )}
       </button>
 

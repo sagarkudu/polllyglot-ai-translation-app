@@ -10,7 +10,7 @@ function Header() {
           <div className="brand">
             <h1>PollyGlot</h1>
 
-            <p>Perfect Translation Every Time</p>
+            <p>Perfect Translation Every Time using AI ✨</p>
           </div>
         </div>
       </div>
