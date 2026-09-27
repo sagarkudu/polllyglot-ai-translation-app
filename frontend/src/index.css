@@ -479,7 +479,6 @@ body {
 ========================= */
 
 @media (max-width: 480px) {
-
   .translation-result-wrapper .translation-output {
     padding-right: 58px;
   }
@@ -497,7 +496,6 @@ body {
   .copy-status {
     font-size: 13px;
   }
-
 
   .header-content {
     min-height: 200px;
@@ -671,6 +669,49 @@ body {
   .suggestion-native {
     font-size: 15px;
   }
+}
+
+.linkedin-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkedin-title-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.developer-footer {
+  width: 100%;
+  padding: 24px 20px;
+
+  background: #101a32;
+
+  border-top: 1px solid #d9dde5;
+
+  text-align: center;
+
+  font-size: 2vmin;
+  color: #fff;
+}
+
+.developer-footer p {
+  margin: 0;
+}
+
+.developer-footer a {
+  color: #ffffff;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.developer-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 /* =========================
